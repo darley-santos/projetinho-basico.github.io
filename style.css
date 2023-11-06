@@ -243,6 +243,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 3rem 10%;
+  min-width: 100%;
   background-color: var(--footer-bg);
 }
 
