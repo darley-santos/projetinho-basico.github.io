@@ -25,8 +25,8 @@ const changeTestimonial = (index) => {
     currentTestimonial.classList.add('show')
 }
 
-menu.addEventListener('click', toggleMenu)
-
+menu.addEventListener('click', toggleMenu) 
+menu.addEventListener('touchstart', toggleMenu)
 slideButtons.forEach((button, index) => {
     const changeTestimonialHandler = () => {
         changeTestimonial(index);
